@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture6</title>
+</head>
+<body bgcolor="skyblue">
+        <div class="Wrapper">
+            <h1>Pizza Order Form</h1>
+            <form action="./thanks.html" >
+                <label for="fname"> First Name :</label>
+                <input type="text" name="firstname" id="fname" placeholder="Balaji" autofocus>
+                <br><br>
+                <label for="lname"> Last Name :</label>
+                <input type="text" name="lastname" id="lname" placeholder="Laygude">
+                <br><br>
+                <label for="e-mail"> Email :</label>
+                <input type="email" name="mail" id="e-mail" placeholder="abc123@gmail.com">
+                <br><br>
+                <label for="contact"> Contact Number :</label>
+                <input type="tel" name="contact" id="contact" placeholder="+91 78784 26536">
+                <br><br>
+                <label for="date"> Prefered Delivary Date :</label>
+                <input type="date" name="ddate" id="date" placeholder=" 14/2/2025">
+                <br><br>
+                <label for="size">Size :</label>
+                <br><br>
+                <input type="radio" name="size" id="small">Small
+                <input type="radio" name="size" id="medium">Medium
+                <input type="radio" name="size" id="large">Large
+                <br><br>
+                <label for="size">Flaver :</label><br><br>
+                <input type="checkbox" name="hawailon" >Hawailon (Php 150.00)
+                <select name="noofhawailon" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br><br>
+                <input type="checkbox" name="pepperoni" >Pepperoni (Php 140.00)
+                <select name="noofpepperoni" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br><br>
+                
+                <input type="checkbox" name="vegetable" >Vegetable (Php 130.00)
+                <select name="noofvegetable" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br><br>
+                <label for="creditcard">Credit card</label>
+                <input type="number" name="creditno" id="creditcard" maax="12" placeholder="XXXX XXXX XXXX XXXX" >
+                <br><br>
+                <label for="pin">Pin</label>
+                <input type="number" name="pinno" id="pin" max="4" placeholder="XXXX">
+                <br><br>
+                <label for="note">Additional Note :</label>
+                <br>
+                <textarea name="additionlnote" id="note" placeholder="Note will be Appreciated"></textarea>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">            
+            </form>
+
+        </div>
+</body>
+</html>
