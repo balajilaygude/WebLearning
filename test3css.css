@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.full{
+    display: flex;
+    background-color:lab(72.16% 40.94 18.09);
+    justify-content: start;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    padding:10% 10%;
+}
+.login{
+    margin-left: 100px;
+    display: flex;
+    background-color: rgb(255, 248, 236);
+    border: 3px solid white;
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;*/
+    gap: 20px;
+}
+
+.image{
+    margin-right: 100px;
+    border: 3px solid white;
+   /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+    width: 50vw;
+    height: 80vh;
+    background-image: url(Flowers3.jpg);
+    background-size: cover;
+}
+p,label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+input[type="email"],input[type="password"]{
+    width:200px;
+    height: 20pxpx;
+    border: 1px solid red;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+.goog{
+    display: flex;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    justify-content: center;
+    float: left;
+    cursor: pointer;
+}
