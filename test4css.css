@@ -1,6 +1,15 @@
 
 
-
+.heading{
+    height: 25vh;
+    width: 100vw;
+    background-color: rgb(225, 224, 224);
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
 .cantainer :nth-child(2){
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
