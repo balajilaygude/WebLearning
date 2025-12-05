@@ -109,6 +109,13 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
+.part2{
+    width: 70%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .intro{
     font-weight: 700;
     font-size: 1.1;
