@@ -101,6 +101,14 @@ h2{
     flex-direction: column;
     gap: 25px;
 }
+.part1{
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .intro{
     font-weight: 700;
     font-size: 1.1;
