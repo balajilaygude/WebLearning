@@ -33,3 +33,16 @@ h1{
 .heading:hover{
     color: #DDF4E7;
 }
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.categary{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
