@@ -35,5 +35,17 @@ body{
     height: 15%;
     background-color:rgb(181, 222, 238);
 }
+.sel{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+button{
+    width: 45%;
+    height: 10%;
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+}
 
 
